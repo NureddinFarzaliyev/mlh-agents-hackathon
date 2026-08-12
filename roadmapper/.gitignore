@@ -1,0 +1,16 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and generated runtime state
+.env
+.env.*
+!.env.example
+roadmapper.json
+roadmap-*.md
+
+# Backboard local state
+.backboard/sessions/
+.backboard/settings.json
