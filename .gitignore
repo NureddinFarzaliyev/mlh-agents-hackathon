@@ -1,0 +1,44 @@
+# Python bytecode and test/cache output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Backboard local workspace and session data
+.backboard/sessions/
+.backboard/settings.json
+**/.backboard/sessions/
+**/.backboard/settings.json
+
+# Runtime-generated assistant IDs and application state
+roadmapper/roadmapper.json
+my-first-agent/sidekick.json
+terminal-ai-helper/terminalHelper.json
+ai-db-planner/agents.json
+ai-db-planner/progress.json
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
