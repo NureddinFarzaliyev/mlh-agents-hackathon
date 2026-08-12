@@ -1,0 +1,2 @@
+Flask>=3.0,<4.0
+backboard-sdk>=1.0.0

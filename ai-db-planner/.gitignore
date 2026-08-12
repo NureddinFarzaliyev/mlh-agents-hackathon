@@ -1,0 +1,23 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and generated application state
+.env
+.env.*
+!.env.example
+agents.json
+progress.json
+
+# Backboard local state
+.backboard/sessions/
+.backboard/settings.json
+
+# Flask and local server output
+instance/
+*.log
+
+# IDE files
+.vscode/
